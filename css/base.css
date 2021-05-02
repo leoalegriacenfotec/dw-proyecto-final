@@ -1,0 +1,290 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Nimbus", sans-serif;
+}
+
+html {
+  font-family: "Nimbus", sans-serif;
+  font-size: 1rem;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar .container.col-6 {
+  margin: 0;
+}
+
+.navbar .logo {
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: #073256;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #073256;
+}
+
+.sct-banner .rocket {
+  width: 50px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+
+.sct-banner .info {
+  margin-top: 40px;
+}
+
+.sct-banner .info p {
+  font-size: 1rem;
+}
+
+.sct-banner .spaceship {
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.parr-car {
+  color: #212529;
+}
+
+.ourservices {
+  background-color: #073256;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.aboutourservices {
+  background-color: #073256;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.about {
+  background-color: #AFC3D3;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.parr {
+  color: #AFC3D3;
+}
+
+.fas {
+  color: #073256;
+  font-size: 3.5rem;
+}
+
+.btnss {
+  margin: 0 auto;
+}
+
+.btnview {
+  background-color: #AFC3D3;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0;
+  padding: 0 auto;
+  margin-bottom: 20px;
+}
+
+.btnservices {
+  background-color: #FFFFFF;
+  color: #212529;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0;
+  padding: 0 auto;
+}
+
+.btnservices .p {
+  text-align: center;
+}
+
+.sct-cards {
+  display: none;
+}
+
+.pcarTXT {
+  color: #212529;
+  font-size: 1rem;
+}
+
+.anuncio {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.anuncio .h2anuncio {
+  color: #073256;
+  font-size: 1.75rem;
+}
+
+.anuncio .btnanuncio {
+  margin: 0 auto;
+}
+
+.anuncio .btnanuncio .btnann {
+  background-color: #AFC3D3;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 40%;
+  margin: 0;
+  padding: 0 auto;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.parrfoot {
+  font-size: 0.8rem;
+}
+
+.footertitle {
+  color: #073256;
+  font-size: 1.35rem;
+  word-spacing: 80px;
+  margin-left: 20px;
+}
+
+.footersub {
+  font-size: 1.3rem;
+}
+
+.ostitle {
+  font-size: 2.5rem;
+}
+
+.caja1 {
+  width: 50%;
+  margin-left: 180px;
+}
+
+.caja2 {
+  width: 50%;
+  margin-left: 180px;
+}
+
+.caja3 {
+  width: 50%;
+  margin-left: 180px;
+}
+
+.caja4 {
+  width: 50%;
+  margin-left: 180px;
+}
+
+.h5cajas {
+  font-size: 1.2rem;
+}
+
+.h2team {
+  font-size: 1.2rem;
+  color: #073256;
+  margin-top: 80px;
+}
+
+.h3team {
+  font-size: 1.75rem;
+  color: #073256;
+}
+
+@media (min-width: 768px) {
+  .sct-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline;
+    background-color: #AFC3D3;
+  }
+  h2 {
+    font-size: 2rem;
+    color: #073256;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .cardtitle {
+    font-size: 1.75rem;
+    color: #073256;
+  }
+  .btncontainer {
+    margin: 0 auto;
+  }
+  .btnview {
+    background-color: #AFC3D3;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .btnserv {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .btnservices {
+    background-color: #FFFFFF;
+    color: #212529;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .btnservices .p {
+    text-align: center;
+  }
+  .cardparr {
+    color: #212529;
+  }
+  .sct-carrusel {
+    display: none;
+  }
+  .footer1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sct-cajas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 120px;
+  }
+  .sct-cajas .parr-car {
+    font-size: 0.8rem;
+  }
+  .sct-team .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 20px;
+  }
+  .sct-team .card-card-team {
+    width: 25%;
+  }
+  .h2team {
+    font-size: 3rem;
+  }
+  .ccteam {
+    margin-left: 25%;
+  }
+}
+/*# sourceMappingURL=base.css.map */
